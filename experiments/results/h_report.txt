@@ -1,0 +1,558 @@
+Eksperiment izvještaj - SiVBP
+Datum: 2026-01-25
+
+SAŽETAK:
+ - H1 pokusa (ingest): 76
+ - H2 pokusa (relevance): 14
+
+H1 (Ingest) - kratki sažetak:
+ - Pokusi sa validnim ingest metrikama: 0
+
+Detalji H1:
+
+---
+n_docs: 10000  DB: None  batch: 100
+encode_total_s: 0.32183194160461426
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: None  batch: 100
+encode_total_s: 0.3313450813293457
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 100
+encode_total_s: 0.33454370498657227
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 500
+encode_total_s: 0.3275413513183594
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 1000
+encode_total_s: 0.3244507312774658
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 100
+encode_total_s: 1.620182991027832
+INGEST: ERROR: No module named 'pinecone.core'
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 100
+encode_total_s: 0.32821035385131836
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 100
+encode_total_s: 0.49890923500061035
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: pinecone  batch: 100
+encode_total_s: 0.32245540618896484
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 100
+encode_total_s: 0.32344627380371094
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 500
+encode_total_s: 0.3269510269165039
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 1000
+encode_total_s: 0.31555914878845215
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 10000  DB: weaviate  batch: 100
+encode_total_s: 1.7714245319366455
+INGEST: ERROR: cannot import name 'get_client' from 'weaviate.client' (C:\Users\DELL\Documents\GitHub\SiVBP\.venv\Lib\site-packages\weaviate\client.py)
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: None  batch: 200
+encode_total_s: 1.6329867839813232
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: None  batch: 200
+encode_total_s: 1.618809461593628
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 1000
+encode_total_s: 1.58231520652771
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 100
+encode_total_s: 1.590181589126587
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 500
+encode_total_s: 1.5925548076629639
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 100
+encode_total_s: 7.927932500839233
+INGEST: ERROR: No module named 'pinecone.core'
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 100
+encode_total_s: 1.6267666816711426
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 100
+encode_total_s: 2.3860344886779785
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: pinecone  batch: 100
+encode_total_s: 1.579529047012329
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 1000
+encode_total_s: 1.6143360137939453
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 100
+encode_total_s: 1.5830810070037842
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 500
+encode_total_s: 1.5880334377288818
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 50000  DB: weaviate  batch: 1000
+encode_total_s: 7.735409498214722
+INGEST: ERROR: cannot import name 'get_client' from 'weaviate.client' (C:\Users\DELL\Documents\GitHub\SiVBP\.venv\Lib\site-packages\weaviate\client.py)
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: None  batch: 500
+encode_total_s: 3.356017589569092
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: pinecone  batch: 100
+encode_total_s: 15.385008096694946
+INGEST: ERROR: No module named 'pinecone.core'
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: pinecone  batch: 100
+encode_total_s: 3.1740920543670654
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: pinecone  batch: 100
+encode_total_s: 4.623217582702637
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: pinecone  batch: 100
+encode_total_s: 3.170772075653076
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: ERROR: No module named 'pinecone.core'
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 100000  DB: weaviate  batch: 100
+encode_total_s: 15.1643705368042
+INGEST: ERROR: cannot import name 'get_client' from 'weaviate.client' (C:\Users\DELL\Documents\GitHub\SiVBP\.venv\Lib\site-packages\weaviate\client.py)
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 200000  DB: None  batch: 1000
+encode_total_s: 6.438594102859497
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 300000  DB: None  batch: 100
+encode_total_s: 15.794517993927002
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 400000  DB: None  batch: 200
+encode_total_s: 13.397791385650635
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: None  batch: 500
+encode_total_s: 17.588134288787842
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: pinecone  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: pinecone  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: pinecone  batch: 100
+encode_total_s: 79.38664412498474
+INGEST: ERROR: No module named 'pinecone.core'
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: pinecone  batch: 100
+encode_total_s: 15.565492153167725
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: pinecone  batch: 100
+encode_total_s: 16.17598247528076
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 500
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 1000
+encode_total_s: None
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 100
+encode_total_s: None
+INGEST: ERROR: No module named 'pinecone.core'
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 500000  DB: weaviate  batch: 100
+encode_total_s: 49.95248007774353
+INGEST: ERROR: cannot import name 'get_client' from 'weaviate.client' (C:\Users\DELL\Documents\GitHub\SiVBP\.venv\Lib\site-packages\weaviate\client.py)
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 600000  DB: None  batch: 1000
+encode_total_s: 19.61687397956848
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 800000  DB: None  batch: 100
+encode_total_s: 33.403605699539185
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+---
+n_docs: 1000000  DB: None  batch: 200
+encode_total_s: 34.76097297668457
+INGEST: Not measured or missing
+QUERY LATENCY: Not measured or missing
+
+
+H2 (Relevance) - kratki sažetak:
+ - n=10000: avg p@1=0.0 avg p@5=0.03333333333333334 avg MAP=0.42486111111111113
+ - n=20000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=50000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=80000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=100000: avg p@1=0.0 avg p@5=0.03666666666666667 avg MAP=0.32361111111111107
+ - n=200000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=300000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=500000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=750000: avg p@1=0.0 avg p@5=0.0 avg MAP=NA
+ - n=1000000: avg p@1=0.0 avg p@5=0.02666666666666667 avg MAP=0.26666666666666666
+
+Detalji H2 po konfiguraciji:
+
+---
+n_docs: 10000  search_mode: None  db: None
+encode_total_s: 0.35721254348754883
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 10000  search_mode: vector  db: local
+encode_total_s: 1.571420431137085
+precision@k: p@1=None p@5=0.10000000000000002 p@10=0.05666666666666667 MAP=0.42486111111111113
+
+---
+n_docs: 10000  search_mode: vector  db: pinecone
+encode_total_s: 0.5634009838104248
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 20000  search_mode: None  db: None
+encode_total_s: 0.7331430912017822
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 50000  search_mode: None  db: None
+encode_total_s: 1.762603521347046
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 80000  search_mode: None  db: None
+encode_total_s: 2.73217511177063
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 100000  search_mode: None  db: None
+encode_total_s: 3.510658025741577
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 100000  search_mode: vector  db: local
+encode_total_s: 3.8074753284454346
+precision@k: p@1=None p@5=0.07333333333333333 p@10=0.04000000000000001 MAP=0.32361111111111107
+
+---
+n_docs: 200000  search_mode: None  db: None
+encode_total_s: 6.808526039123535
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 300000  search_mode: None  db: None
+encode_total_s: 9.701663970947266
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 500000  search_mode: None  db: None
+encode_total_s: 20.548072814941406
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 750000  search_mode: None  db: None
+encode_total_s: 32.1627254486084
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+---
+n_docs: 1000000  search_mode: vector  db: local
+encode_total_s: 151.3162636756897
+precision@k: p@1=None p@5=0.05333333333333334 p@10=0.02666666666666667 MAP=0.26666666666666666
+
+---
+n_docs: 1000000  search_mode: vector  db: pinecone
+encode_total_s: 43.00312423706055
+precision@k: p@1=0.0 p@5=0.0 p@10=0.0 MAP=None
+
+ZAKLJUČAK I PREPORUKE:
+ - H2 rezultati su izvedeni lokalno koristeći mock DB, daju jasnu tendenciju pada precision sa rastom corpus size.
+ - Ako treba produkcijske brojke, zamijeniti mockove s pravim DB instancama (Pinecone ili lokalni Weaviate).
+
+Putanja do ovoga izvještaja: C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\h_report.txt

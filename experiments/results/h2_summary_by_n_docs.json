@@ -1,0 +1,112 @@
+[
+  {
+    "n_docs": 10000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0606,
+    "mean_p@10": 0.03393333333333333,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.303,
+    "mean_r@10": 0.3393333333333333,
+    "mean_mrr": 0.4367110902728163,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 20000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 50000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 80000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 100000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.059333333333333335,
+    "mean_p@10": 0.031625,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.29666666666666663,
+    "mean_r@10": 0.31625000000000003,
+    "mean_mrr": 0.358520057012704,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 200000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 300000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 500000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 750000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.0,
+    "mean_p@10": 0.0,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.0,
+    "mean_r@10": 0.0,
+    "mean_mrr": null,
+    "mean_query_latency_s": null
+  },
+  {
+    "n_docs": 1000000,
+    "mean_p@1": 0.0,
+    "mean_p@5": 0.04166666666666667,
+    "mean_p@10": 0.021666666666666667,
+    "mean_r@1": 0.0,
+    "mean_r@5": 0.20833333333333331,
+    "mean_r@10": 0.21666666666666667,
+    "mean_mrr": 0.2585185185185185,
+    "mean_query_latency_s": null
+  }
+]

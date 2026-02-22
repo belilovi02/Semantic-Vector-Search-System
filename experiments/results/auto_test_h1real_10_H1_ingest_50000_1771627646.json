@@ -1,0 +1,23 @@
+{
+  "config": {
+    "hypothesis": "H1_ingest",
+    "n_docs": 50000,
+    "batch_size": 1000,
+    "model_name": "dummy",
+    "dim": 512,
+    "target_db": "pinecone",
+    "sample_queries": 200
+  },
+  "encode_total_s": null,
+  "encode_batches": [],
+  "system_samples": [],
+  "metrics": {
+    "ingest": {
+      "error": "No module named 'dotenv'"
+    },
+    "query_latency": null
+  },
+  "memmap_path": null,
+  "dim": 512,
+  "n_docs": 50000
+}

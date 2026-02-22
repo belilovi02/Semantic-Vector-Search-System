@@ -1,0 +1,94 @@
+{
+  "config": {
+    "hypothesis": "H1_ingest",
+    "n_docs": 5,
+    "batch_size": 2,
+    "model_name": "dummy",
+    "dim": 128,
+    "target_db": "weaviate",
+    "sample_queries": 5
+  },
+  "encode_total_s": 0.002372264862060547,
+  "encode_batches": [
+    {
+      "start": 1771627415.7370667,
+      "end": 1771627415.737697,
+      "count": 2
+    },
+    {
+      "start": 1771627416.7387233,
+      "end": 1771627416.7395594,
+      "count": 2
+    },
+    {
+      "start": 1771627418.741241,
+      "end": 1771627418.742147,
+      "count": 1
+    }
+  ],
+  "system_samples": [
+    {
+      "ts": 1771627418.742587,
+      "cpu_percent": 21.4,
+      "mem": {
+        "total": 16849256448,
+        "available": 7548555264,
+        "percent": 55.2,
+        "used": 9300701184,
+        "free": 7548555264
+      }
+    },
+    {
+      "ts": 1771627419.743455,
+      "cpu_percent": 20.6,
+      "mem": {
+        "total": 16849256448,
+        "available": 7865352192,
+        "percent": 53.3,
+        "used": 8983904256,
+        "free": 7865352192
+      }
+    },
+    {
+      "ts": 1771627420.7442758,
+      "cpu_percent": 15.2,
+      "mem": {
+        "total": 16849256448,
+        "available": 7871320064,
+        "percent": 53.3,
+        "used": 8977936384,
+        "free": 7871320064
+      }
+    },
+    {
+      "ts": 1771627421.7451022,
+      "cpu_percent": 11.2,
+      "mem": {
+        "total": 16849256448,
+        "available": 7857926144,
+        "percent": 53.4,
+        "used": 8991330304,
+        "free": 7857926144
+      }
+    }
+  ],
+  "metrics": {
+    "ingest": {
+      "total_items": 5,
+      "total_time_s": 5.6743621826171875e-05,
+      "overall_throughput_vps": 88115.63025210085,
+      "db": "weaviate",
+      "batch_size": 2
+    },
+    "query_latency": {
+      "mean_s": 3.9243698120117186e-05,
+      "p50_s": 2.4080276489257812e-05,
+      "p90_s": 7.152557373046875e-05,
+      "p99_s": 9.469985961914062e-05,
+      "qps": 25481.79829890644
+    }
+  },
+  "memmap_path": null,
+  "dim": 128,
+  "n_docs": 5
+}

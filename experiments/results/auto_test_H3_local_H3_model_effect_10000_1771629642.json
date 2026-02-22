@@ -1,0 +1,51 @@
+{
+  "config": {
+    "hypothesis": "H3_model_effect",
+    "n_docs": 10000,
+    "batch_size": 256,
+    "model_name": "sentence_transformer",
+    "dim": 512,
+    "target_db": "local",
+    "sample_queries": 30
+  },
+  "encode_total_s": 0.42850279808044434,
+  "encode_batches": [
+    {
+      "start": 1771629641.1466215,
+      "end": 1771629641.5261633,
+      "count": 10000
+    }
+  ],
+  "system_samples": [
+    {
+      "ts": 1771629641.579056,
+      "cpu_percent": 29.4,
+      "mem": {
+        "total": 16849256448,
+        "available": 7827935232,
+        "percent": 53.5,
+        "used": 9021321216,
+        "free": 7827935232
+      }
+    }
+  ],
+  "metrics": {
+    "p@5": 0.06666666666666667,
+    "p@10": 0.03666666666666667,
+    "p@20": 0.018333333333333333,
+    "r@5": 0.3333333333333333,
+    "r@10": 0.36666666666666664,
+    "r@20": 0.36666666666666664,
+    "map": 0.2694444444444445,
+    "query_latency": {
+      "mean_s": 0.002446262041727702,
+      "p50_s": 0.0022649765014648438,
+      "p90_s": 0.003491473197937012,
+      "p99_s": 0.008699448108673102,
+      "qps": 408.7869504338701
+    }
+  },
+  "memmap_path": "C:\\Users\\DELL\\Documents\\GitHub\\SiVBP\\data\\vectors_sentence_transformer_10000.dat",
+  "dim": 512,
+  "n_docs": 10000
+}

@@ -1,0 +1,2 @@
+hypothesis,n_docs,encode_total_s,ingest,query_latency,out_file
+H1_ingest,100000,5.879722595214844,"{'total_items': 100000, 'total_time_s': 2.1242048740386963, 'overall_throughput_vps': 47076.43844629382, 'db': 'weaviate', 'batch_size': 1000}","{'mean_s': 0.20524259448051452, 'p50_s': 0.20465326309204102, 'p90_s': 0.2115328788757324, 'p99_s': 0.24774734735488887, 'qps': 4.872282980689658}",C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_17_H1_ingest_100000_1771627862.json

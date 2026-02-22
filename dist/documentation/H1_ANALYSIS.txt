@@ -1,0 +1,117 @@
+Analiza rezultata za Hipotezu H1 (Ingest/throughput)
+
+1. Metodologija:
+
+- Skupljeno je ukupno 32 H1 zapisa (fajlova) iz direktorija experiments/results.
+- Svaki zapis sadrži: veličinu kolekcije (n_docs), ciljnu DB (pinecone/weaviate), veličinu batch-a i ukupno vrijeme enkodiranja.
+- Za evaluaciju se koristio `DummyEncoder` (TF-IDF->dense) radi reproducibilnosti na Windows okruženju.
+- Mjerene metrike: vrijeme enkodiranja (s), i relevancijske metrike p@5, p@10, p@20 i MAP (pomoćno).
+
+2. Sažetak (agregirano):
+
+- Ukupno zapisa: 32
+- Prosječno vrijeme enkodiranja: 6.30 s (std 9.47)
+
+3. Po veličini kolekcije (n_docs):
+
+- n_docs = 10000:
+  * Encode time — count: 10, mean: 0.33s, std: 0.01s, min: 0.32s, max: 0.33s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 50000:
+  * Encode time — count: 10, mean: 1.60s, std: 0.02s, min: 1.58s, max: 1.63s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 100000:
+  * Encode time — count: 3, mean: 3.23s, std: 0.11s, min: 3.17s, max: 3.36s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 200000:
+  * Encode time — count: 1, mean: 6.44s, std: 0.00s, min: 6.44s, max: 6.44s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 300000:
+  * Encode time — count: 1, mean: 15.79s, std: 0.00s, min: 15.79s, max: 15.79s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 400000:
+  * Encode time — count: 1, mean: 13.40s, std: 0.00s, min: 13.40s, max: 13.40s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 500000:
+  * Encode time — count: 3, mean: 16.44s, std: 1.04s, min: 15.57s, max: 17.59s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 600000:
+  * Encode time — count: 1, mean: 19.62s, std: 0.00s, min: 19.62s, max: 19.62s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 800000:
+  * Encode time — count: 1, mean: 33.40s, std: 0.00s, min: 33.40s, max: 33.40s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- n_docs = 1000000:
+  * Encode time — count: 1, mean: 34.76s, std: 0.00s, min: 34.76s, max: 34.76s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+4. Po ciljnoj bazi (DB):
+
+- DB = nije specificirano:
+  * Encode time — count: 12, mean: 12.36s, std: 12.34s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- DB = pinecone:
+  * Encode time — count: 14, mean: 3.41s, std: 5.37s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+- DB = weaviate:
+  * Encode time — count: 6, mean: 0.96s, std: 0.70s
+  * p@5 mean: 0.000, p@10 mean: 0.000, p@20 mean: 0.000, MAP mean: 0.000
+
+5. Zapažanja i interpretacija:
+
+- Napomena: neke stare ili generisane datoteke nemaju polje `target_db` (označeno kao 'nije specificirano'). To znači da su to ranije pokretanja ili placeholderi gdje ciljna DB nije bila proslijeđena u konfiguraciji.
+- Weaviate ima nešto niže prosječno vrijeme enkodiranja (0.96s) u odnosu na Pinecone (3.41s). Ovo sugerira da...
+
+6. Preporuke za verifikaciju hipoteze H1:
+
+- Ako ciljamo potvrditi razliku u throughput-u između DB-ova, preporučujem ponoviti svaki test najmanje 3 puta i koristiti stvarne enkodere ako je moguće.
+- Izmjeriti varijaciju pri različitim `batch_size` postavkama i zapisati CPU/RAM prilikom enkodiranja.
+- Za akademski izvještaj uključiti tablice sa srednjim vrijednostima i standardnom devijacijom (već izračunato iznad).
+
+7. Detaljni popis ispitanih run-ova (file, n_docs, DB, batch, encode_s):
+
+- auto_test_H1_ingest_1000000_1769292455.json: n=1000000, db=nije specificirano, batch=200, encode_s=34.76
+- auto_test_H1_ingest_100000_1769290750.json: n=100000, db=nije specificirano, batch=500, encode_s=3.36
+- auto_test_H1_ingest_10000_1769290734.json: n=10000, db=nije specificirano, batch=100, encode_s=0.32
+- auto_test_H1_ingest_200000_1769290769.json: n=200000, db=nije specificirano, batch=1000, encode_s=6.44
+- auto_test_H1_ingest_300000_1769290969.json: n=300000, db=nije specificirano, batch=100, encode_s=15.79
+- auto_test_H1_ingest_400000_1769292004.json: n=400000, db=nije specificirano, batch=200, encode_s=13.40
+- auto_test_H1_ingest_500000_1769292055.json: n=500000, db=nije specificirano, batch=500, encode_s=17.59
+- auto_test_H1_ingest_50000_1769290738.json: n=50000, db=nije specificirano, batch=200, encode_s=1.63
+- auto_test_H1_ingest_600000_1769292282.json: n=600000, db=nije specificirano, batch=1000, encode_s=19.62
+- auto_test_H1_ingest_800000_1769292386.json: n=800000, db=nije specificirano, batch=100, encode_s=33.40
+- auto_test_h1real_0_H1_ingest_10000_1769335570.json: n=10000, db=pinecone, batch=100, encode_s=0.33
+- auto_test_h1real_10_H1_ingest_50000_1769335636.json: n=50000, db=pinecone, batch=1000, encode_s=1.58
+- auto_test_h1real_11_H1_ingest_50000_1769335641.json: n=50000, db=weaviate, batch=1000, encode_s=1.61
+- auto_test_h1real_1_H1_ingest_10000_1769335572.json: n=10000, db=weaviate, batch=100, encode_s=0.32
+- auto_test_h1real_2_H1_ingest_10000_1769335574.json: n=10000, db=pinecone, batch=500, encode_s=0.33
+- auto_test_h1real_3_H1_ingest_10000_1769335575.json: n=10000, db=weaviate, batch=500, encode_s=0.33
+- auto_test_h1real_4_H1_ingest_10000_1769335577.json: n=10000, db=pinecone, batch=1000, encode_s=0.32
+- auto_test_h1real_5_H1_ingest_10000_1769335579.json: n=10000, db=weaviate, batch=1000, encode_s=0.32
+- auto_test_h1real_6_H1_ingest_50000_1769335584.json: n=50000, db=pinecone, batch=100, encode_s=1.59
+- auto_test_h1real_7_H1_ingest_50000_1769335589.json: n=50000, db=weaviate, batch=100, encode_s=1.58
+- auto_test_h1real_8_H1_ingest_50000_1769335626.json: n=50000, db=pinecone, batch=500, encode_s=1.59
+- auto_test_h1real_9_H1_ingest_50000_1769335631.json: n=50000, db=weaviate, batch=500, encode_s=1.59
+- auto_test_moreq_H1_ingest_100000_1769335080.json: n=100000, db=pinecone, batch=100, encode_s=3.17
+- auto_test_moreq_H1_ingest_10000_1769335065.json: n=10000, db=pinecone, batch=100, encode_s=0.33
+- auto_test_moreq_H1_ingest_500000_1769335115.json: n=500000, db=pinecone, batch=100, encode_s=15.57
+- auto_test_moreq_H1_ingest_50000_1769335070.json: n=50000, db=pinecone, batch=100, encode_s=1.63
+- auto_test_rerun_H1_ingest_100000_1769336855.json: n=100000, db=pinecone, batch=100, encode_s=3.17
+- auto_test_rerun_H1_ingest_10000_1769336840.json: n=10000, db=pinecone, batch=100, encode_s=0.32
+- auto_test_rerun_H1_ingest_500000_1769336891.json: n=500000, db=pinecone, batch=100, encode_s=16.18
+- auto_test_rerun_H1_ingest_50000_1769336845.json: n=50000, db=pinecone, batch=100, encode_s=1.58
+- auto_test_smoke_H1_ingest_10000_1769290452.json: n=10000, db=nije specificirano, batch=100, encode_s=0.33
+- auto_test_smoke_H1_ingest_50000_1769290458.json: n=50000, db=nije specificirano, batch=200, encode_s=1.62
+
+Kraj analize H1.

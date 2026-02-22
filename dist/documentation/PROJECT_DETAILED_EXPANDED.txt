@@ -1,0 +1,142 @@
+PROJECT: SiVBP — Focused documentation: the three primary hypotheses (EN) and Bosnian (BA)
+==============================================================================
+
+1) Purpose and scope
+- This document presents the three core, testable hypotheses for the SiVBP experiments,
+  the exact measurements to collect for each, recommended dataset sizes and test matrices,
+  and short instructions to reproduce results. English (EN) appears first, followed by Bosnian (BA).
+
+2) Experimental hypotheses (clear, testable)
+
+EN - H1: Ingestion throughput (ingest)
+- Claim: Under identical client and batching settings, Pinecone (managed service) yields
+  higher sustained ingestion throughput than a typical self-hosted Weaviate deployment.
+- Measurements: per-batch upsert throughput (vectors/sec), total time to ingest N vectors,
+  per-batch latency distribution, CPU%, network I/O during ingest.
+- Test matrix: corpus sizes = {10_000; 50_000; 100_000; 1_000_000}, batch sizes = {100; 500; 1000},
+  parallel clients = {1; 4}. Repeat each config 3x and report median and 95th percentile.
+- Expected outcome: Pinecone often shows higher sustained throughput; document rate-limits and variability.
+
+EN - H2: Retrieval quality at scale
+- Claim: With the same embedding model and index parameters, retrieval quality (P@k, recall@k, MRR)
+  degrades slowly as corpus size increases; properly tuned index parameters reduce degradation.
+- Measurements: precision@1/5/10, recall@10, MRR, query latency distribution. Use query sample sizes {200, 1000}.
+- Test matrix: sizes = {10k; 100k; 1M}, search modes = {vector-only, hybrid (bm25+vector)}.
+- Expected outcome: modest reduction in P@k at larger sizes; hybrid or tuned index often reduces drop.
+
+EN - H3: Index configuration tradeoffs
+- Claim: Index parameter changes (e.g., HNSW efConstruction/efSearch) produce predictable latency vs recall tradeoffs.
+- Measurements: vary efSearch ∈ {10, 50, 100, 200} (or provider analogs), measure recall@k and P@k, and query latency (median, p95).
+- Test matrix: pick one corpus size (e.g., 100k) and sweep efSearch/efConstruction; report latency vs recall curves.
+- Expected outcome: higher efSearch → better recall, higher latency; produce latency vs recall plots to choose operating point.
+
+3) What to log and collect for each run (applies to all hypotheses)
+- Config: `model_name`, `encoder_type`, `n_docs`, `batch_size`, `index_params`, `dtype`, `dim`, `timestamp` (mask secrets).
+- System: CPU%, RAM, network usage, disk I/O, and GPU% where available during encode/ingest/search.
+- Timings: per-batch ingest times, encode throughput (docs/sec), per-query latency and returned top-K (store scores/ids).
+- Metrics: p@1/5/10, recall@k, MRR, ingest vectors/sec, encode total time (s).
+
+4) Minimal reproducibility checklist
+- Commit or export `requirements.txt` and Python version.
+- Keep `data/documents_{N}.jsonl`, `data/queries.jsonl`, `data/qrels.json` or a deterministic generator seed.
+- Save memmap vectors and a checksum (SHA256) of the memmap file.
+- Save `experiments/results/*.json` and the summary CSV used for plots.
+
+5) Quick reproduction steps (copy-paste)
+Windows Powershell (venv assumed):
+```powershell
+.
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python main.py --action prepare_data --n_docs 100000
+python main.py --action run_all --models dummy
+```
+
+6) Analysis recommendations
+- For H1: plot ingest throughput vs corpus size and CDF of per-batch latencies; show median and p95.
+- For H2: plot P@1/5/10 vs corpus size and include hybrid vs vector-only comparisons.
+- For H3: produce latency vs recall curves for index parameter sweeps and recommend operating points.
+
+---
+
+BA - H1: Propusnost pri upisu (ingest)
+- Tvrdnja: Uz iste klijentske postavke i batch-e, Pinecone (managed servis) ostvaruje veću
+  održivu propusnost upisa nego tipična samostalno hostana Weaviate instanca.
+- Mjerenja: throughput po batch-u (vektori/sek), ukupno vrijeme za upis N vektora, distribucija latencija po batch-u, CPU% i mrežni I/O.
+- Matrica testova: veličine korpusa = {10_000; 50_000; 100_000; 1_000_000}, batch = {100; 500; 1000},
+  paralelni klijenti = {1; 4}. Svaku konfiguraciju ponoviti 3x i izvijestiti medijan i 95 percentil.
+- Očekivani ishod: Pinecone često ima veću održivu propusnost; dokumentirati rate-limite i varijabilnost.
+
+BA - H2: Kvalitet pretrage pri skaliranju
+- Tvrdnja: Sa istim embedding modelom i parametrima indeksa, kvalitet pretrage (P@k, recall@k, MRR)
+  se polako smanjuje kako korpus raste; dobro podešen indeks smanjuje taj pad.
+- Mjerenja: precision@1/5/10, recall@10, MRR, distribucija latencija upita. Koristiti uzorke upita {200, 1000}.
+- Matrica testova: veličine = {10k; 100k; 1M}, režimi pretrage = {samo-vektor, hibrid (bm25+vektor)}.
+- Očekivani ishod: umjeren pad P@k kod većih veličina; hibrid ili podešen indeks smanjuje pad.
+
+BA - H3: Trgovanje parametrima indeksa
+- Tvrdnja: Promjene parametara indeksa (npr. HNSW efConstruction/efSearch) daju predvidljiv kompromis između latencije i recall-a.
+- Mjerenja: promijeniti efSearch ∈ {10, 50, 100, 200}, mjeriti recall@k i P@k te latenciju upita (medijan, p95).
+- Matrica testova: koristiti jednu veličinu korpusa (npr. 100k) i proći kroz vrijednosti efSearch/efConstruction; izvijestiti krive latencija vs recall.
+- Očekivani ishod: veći efSearch → bolji recall, veća latencija; proizvesti krivu latencija vs recall i preporučiti radnu točku.
+
+END
+
+---
+
+## Final experiment counts (to include in methodology)
+
+**H1 – Performance (latency & throughput)**
+
+Minimalno potrebno:
+
+- 4 veličine dataset-a (npr. 10k, 50k, 100k, 500k)
+- 3 ponavljanja po veličini
+- 2 baze (Weaviate + Pinecone)
+
+Ukupno mjerenja:
+4 × 3 × 2 = 24 testa
+
+Broj koji napisati u radu:
+H1: 24 performance tests
+
+---
+
+**H2 – Relevance (precision@k, recall@k)**
+
+Minimalno potrebno:
+
+- 30 upita
+- 3 vrijednosti k (k = 5, 10, 20)
+- 2 baze
+- 2 tipa pretrage (standard + hybrid)
+
+Ukupno mjerenja:
+30 × 3 × 2 × 2 = 360 testova
+
+Broj koji napisati u radu:
+H2: 360 relevance evaluations
+
+---
+
+**H3 – Embedding models (BERT vs SentenceTransformer)**
+
+Minimalno potrebno:
+
+- 30 upita
+- 3 vrijednosti k
+- 2 baze
+- 2 embedding modela
+
+Ukupno mjerenja:
+30 × 3 × 2 × 2 = 360 testova
+
+Broj koji napisati u radu:
+H3: 360 embedding comparison tests
+
+---
+
+Jedna rečenica za metodologiju (preporučeno):
+
+In total, the experimental evaluation consisted of 24 performance tests (H1), 360 relevance evaluations (H2), and 360 embedding model comparison tests (H3).

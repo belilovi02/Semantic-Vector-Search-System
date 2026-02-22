@@ -1,0 +1,694 @@
+2026-01-25T12:20:48.133692 START run_configs_and_collect out_prefix=auto_test_rerun2 n_cfgs=24
+2026-01-25T12:20:48.135195 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:20:50.464833 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:20:50.505914 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:20:50.513485 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:20:50.513485 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:20:50.513485 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:20:50.513485 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:20:56.425382 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:20:56.450177 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:20:56.458667 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:20:56.458667 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:20:56.460675 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:20:56.463314 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:13.951707 START run_configs_and_collect out_prefix=auto_test_rerun2 n_cfgs=24
+2026-01-25T12:28:13.951707 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:16.672811 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:16.693779 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:16.697376 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:16.697376 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:16.697376 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:16.697376 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:24.131145 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:24.155814 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:24.157629 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:24.159834 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:24.160839 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:24.162528 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:37.817619 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:37.843098 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:37.843098 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:37.843098 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:28:37.843098 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:28:37.843098 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:35:35.865270 START run_configs_and_collect out_prefix=auto_test_rerun2 n_cfgs=6
+2026-01-25T12:35:35.868133 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:35:35.876357 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:35:35.884611 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:35:35.886528 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:37:31.652437 START run_configs_and_collect out_prefix=auto_test_rerun2 n_cfgs=6
+2026-01-25T12:37:31.672305 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:44:36.629670 START run_configs_and_collect out_prefix=auto_test_h1_final n_cfgs=24
+2026-01-25T12:44:36.631420 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:44:43.993290 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:44:44.681065 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:44:44.693114 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:44:45.241633 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:44:45.249759 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:44:45.758334 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:45:05.209055 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:45:07.767062 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:45:07.773588 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:45:10.326444 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:45:10.334944 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:45:12.953132 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:45:44.084840 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:45:49.648948 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:45:49.658659 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:45:54.816094 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:45:54.831618 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:45:59.417760 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:10.963856 START run_configs_and_collect out_prefix=auto_test_h1_final n_cfgs=24
+2026-01-25T12:46:10.963856 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:10.975976 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:46:17.484494 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:17.500944 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:46:21.764192 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:21.780576 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:46:26.381742 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:26.395542 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:46:41.316572 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:41.330552 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:46:52.223361 START run_configs_and_collect out_prefix=auto_test_h1_final n_cfgs=24
+2026-01-25T12:46:52.230224 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:52.239994 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:46:56.353177 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:46:56.371169 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:01.455293 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:01.488154 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:01.540290 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:01.546907 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:01.562410 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:01.573280 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:04.024366 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:04.032869 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:06.440642 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:06.448417 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:15.425686 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:15.436148 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:20.162911 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:20.173904 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.438774 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.446839 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.770449 START run_configs_and_collect out_prefix=auto_test_h1_final n_cfgs=24
+2026-01-25T12:47:25.770449 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.787065 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.796981 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.813119 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.822144 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.837085 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.851660 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.867859 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.929336 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.940803 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.948158 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.964974 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:25.972651 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:25.989287 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:30.701888 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:33.589433 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:33.603711 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:40.020461 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:47:40.032815 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:47:44.903258 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:03.163194 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:20.168899 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:22.879871 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:35.821629 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:35.837454 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:45.409732 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:45.423768 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:46.152982 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:46.152982 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:49.141974 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:49.145566 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:53.191893 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:53.202344 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:48:54.671168 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:48:54.677148 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:49:06.246777 FINISH run_configs_and_collect out_prefix=auto_test_h1_final written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_final_summary_1769341746.csv
+2026-01-25T12:49:17.061222 FINISH run_configs_and_collect out_prefix=auto_test_h1_final written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_final_summary_1769341757.csv
+2026-01-25T12:49:22.416729 START run_configs_and_collect out_prefix=auto_test_rerun2 n_cfgs=6
+2026-01-25T12:49:22.416729 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:49:56.256552 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:49:56.325143 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:49:56.333514 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:51:36.419354 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:51:36.457909 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:51:36.482535 FINISH run_configs_and_collect out_prefix=auto_test_rerun2 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_rerun2_summary_1769341896.csv
+2026-01-25T12:52:23.232512 START run_configs_and_collect out_prefix=auto_test_rerun2 n_cfgs=6
+2026-01-25T12:52:23.232512 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:52:23.234741 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:52:23.237776 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:52:23.237776 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:52:23.240923 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:52:23.240923 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:52:23.247650 FINISH run_configs_and_collect out_prefix=auto_test_rerun2 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_rerun2_summary_1769341943.csv
+2026-01-25T12:54:18.600905 START run_configs_and_collect out_prefix=auto_test_h1_final n_cfgs=24
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:18.602608 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.617788 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:18.617788 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.617788 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:18.617788 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:18.624778 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:20.868029 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:20.868029 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:20.902400 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:20.903852 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:20.907160 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:20.908760 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:27.147826 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:27.147826 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:27.176174 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T12:54:27.176174 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T12:54:27.182681 FINISH run_configs_and_collect out_prefix=auto_test_h1_final written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_final_summary_1769342067.csv
+2026-01-25T13:16:32.605309 START run_configs_and_collect out_prefix=auto_test_H2_local n_cfgs=6
+2026-01-25T13:16:32.605309 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-01-25T13:16:38.936105 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-01-25T13:16:38.977280 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-01-25T13:16:49.477702 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-01-25T13:16:49.497076 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-01-25T13:20:21.246769 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-01-25T13:20:21.321406 FINISH run_configs_and_collect out_prefix=auto_test_H2_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_summary_1769343621.csv
+2026-01-25T13:36:29.439920 START run_configs_and_collect out_prefix=auto_test_H3_local n_cfgs=6
+2026-01-25T13:36:29.439920 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:36:31.667213 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:36:31.700050 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:36:43.126742 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:36:43.154779 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:37:57.776392 START run_configs_and_collect out_prefix=auto_test_H3_local n_cfgs=6
+2026-01-25T13:37:57.776392 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:37:57.777912 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:37:59.980674 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:37:59.983499 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:38:11.367726 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:39:18.948549 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:26.287125 FINISH run_configs_and_collect out_prefix=auto_test_H3_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_summary_1769344826.csv
+2026-01-25T13:40:29.278150 START run_configs_and_collect out_prefix=auto_test_H3_local n_cfgs=6
+2026-01-25T13:40:29.278150 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:29.284480 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:29.294136 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:29.301480 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:29.320169 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:29.323331 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:29.351996 FINISH run_configs_and_collect out_prefix=auto_test_H3_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_summary_1769344829.csv
+2026-01-25T13:40:30.872616 START run_configs_and_collect out_prefix=auto_test_H3_local n_cfgs=6
+2026-01-25T13:40:30.872616 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:30.875841 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:30.875841 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:30.875841 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:30.881947 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:30.881947 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T13:40:30.889490 FINISH run_configs_and_collect out_prefix=auto_test_H3_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_summary_1769344830.csv
+2026-01-25T14:31:51.627056 START run_configs_and_collect out_prefix=auto_test_h1_final n_cfgs=24
+2026-01-25T14:31:51.627056 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:31:51.627056 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:31:51.627056 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:31:52.693365 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:01.060638 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:01.285389 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:09.288432 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:09.292027 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:20.829403 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:21.510288 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:27.362171 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=24
+2026-01-25T14:32:27.362171 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:32:32.794101 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:33.440290 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:33.443334 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:33.444872 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:33.446198 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:34.816308 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:35.453133 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:32:42.150093 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:32:49.858775 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:32:50.607491 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:32:51.832815 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:32:57.592597 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:05.274089 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:07.511296 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:33:07.514441 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:33:07.517247 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:33:08.758833 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=24
+2026-01-25T14:33:08.758833 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:12.955521 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:14.192434 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:33:16.995571 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:17.015324 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:23.093951 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:24.667991 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:24.692463 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:32.406301 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:32.433388 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:33.759740 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:43.643904 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:43.680745 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:45.084649 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:54.194509 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:54.230219 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:33:55.977739 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:04.774535 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:04.803465 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:07.138709 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:07.142476 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:09.712070 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-01-25T14:34:16.461808 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-01-25T14:34:19.968125 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:19.998188 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:22.476597 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:22.479662 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:34.138060 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:34.169167 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:36.250580 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:36.256426 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.273016 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=24
+2026-01-25T14:34:38.273016 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.278436 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.278436 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.284031 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.286860 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.286860 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.290553 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.290553 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.294970 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.297078 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.301496 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.302982 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.307902 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.311015 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.313774 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.320502 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:38.321125 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:49.372279 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:49.414949 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:51.582765 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:51.590701 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:53.623869 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:34:53.643728 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:35:24.405556 FINISH run_configs_and_collect out_prefix=auto_test_h1_final written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_final_summary_1769348124.csv
+2026-01-25T14:35:45.310629 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:35:45.371745 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:35:47.578369 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:35:47.593625 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:35:48.837601 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:35:48.846487 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.281206 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=24
+2026-01-25T14:36:02.281206 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.281206 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.285913 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.285913 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.285913 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.285913 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.285913 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.293903 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.293903 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.293903 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.293903 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.302588 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.304811 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.310360 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.312404 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.318968 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.318968 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.327046 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.330956 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.335598 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:02.352392 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:33.849604 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:33.918297 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:38.264645 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:38.311438 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:40.303754 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:40.360617 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:52.365945 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:36:52.402948 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:37:25.157130 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:37:25.231059 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769348245.csv
+2026-01-25T14:37:31.214771 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:37:31.246088 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769348251.csv
+2026-01-25T14:37:32.513967 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:37:32.543889 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769348252.csv
+2026-01-25T14:37:39.637789 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T14:37:39.683073 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769348259.csv
+2026-01-25T14:37:58.384319 START run_configs_and_collect out_prefix=auto_test_debug n_cfgs=1
+2026-01-25T14:37:58.394642 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T14:38:06.012141 FINISH run_configs_and_collect out_prefix=auto_test_debug written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_summary_1769348286.csv
+2026-01-25T14:38:46.353205 START run_configs_and_collect out_prefix=auto_test_debug n_cfgs=1
+2026-01-25T14:38:46.353205 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T14:38:46.362172 FINISH run_configs_and_collect out_prefix=auto_test_debug written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_summary_1769348326.csv
+2026-01-25T14:39:01.516015 START run_configs_and_collect out_prefix=auto_test_debug n_cfgs=1
+2026-01-25T14:39:01.516015 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T14:39:09.115853 FINISH run_configs_and_collect out_prefix=auto_test_debug written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_summary_1769348349.csv
+2026-01-25T14:47:45.334139 START run_configs_and_collect out_prefix=auto_test_debug_real n_cfgs=1
+2026-01-25T14:47:45.334139 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 100, 'model_name': 'all-MiniLM-L6-v2', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T14:47:50.853938 FINISH run_configs_and_collect out_prefix=auto_test_debug_real written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_real_summary_1769348870.csv
+2026-01-25T14:48:26.437395 START run_configs_and_collect out_prefix=auto_test_debug_real n_cfgs=1
+2026-01-25T14:48:26.437395 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 100, 'model_name': 'all-MiniLM-L6-v2', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T14:48:26.460760 FINISH run_configs_and_collect out_prefix=auto_test_debug_real written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_real_summary_1769348906.csv
+2026-01-25T14:48:41.598799 START run_configs_and_collect out_prefix=auto_test_debug_real n_cfgs=1
+2026-01-25T14:48:41.598799 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 100, 'model_name': 'all-MiniLM-L6-v2', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T14:48:52.075407 FINISH run_configs_and_collect out_prefix=auto_test_debug_real written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_real_summary_1769348932.csv
+2026-01-25T14:52:07.677753 START run_configs_and_collect out_prefix=auto_test_debug_hfbert n_cfgs=1
+2026-01-25T14:52:07.677753 START config {'hypothesis': 'H1_ingest', 'n_docs': 1000, 'batch_size': 50, 'model_name': 'bert-base-uncased', 'dim': 768, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T14:52:20.144827 FINISH run_configs_and_collect out_prefix=auto_test_debug_hfbert written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_hfbert_summary_1769349140.csv
+2026-01-25T15:06:58.320774 START run_configs_and_collect out_prefix=auto_test_debug_10k n_cfgs=1
+2026-01-25T15:06:58.320774 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:07:11.685681 FINISH run_configs_and_collect out_prefix=auto_test_debug_10k written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_debug_10k_summary_1769350031.csv
+2026-01-25T15:08:59.179241 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=12
+2026-01-25T15:08:59.184229 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T15:10:21.657663 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:10:21.663211 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T15:12:06.108541 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350326.csv
+2026-01-25T15:12:06.423061 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:12:06.428252 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T15:13:18.993252 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:13:18.993252 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:13:27.691517 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350407.csv
+2026-01-25T15:13:27.728730 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:13:27.735521 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:13:36.451662 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350416.csv
+2026-01-25T15:13:36.481638 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:13:36.483173 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:14:28.961606 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:14:28.972222 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:14:29.006053 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350468.csv
+2026-01-25T15:14:29.073404 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:14:29.079723 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:14:29.099764 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350469.csv
+2026-01-25T15:14:29.112202 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:14:29.117662 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:14:41.682662 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350481.csv
+2026-01-25T15:14:41.706829 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:14:41.708369 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:14:57.337123 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350497.csv
+2026-01-25T15:14:57.427290 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:14:57.427290 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:15:10.855442 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350510.csv
+2026-01-25T15:15:10.934715 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:15:10.934715 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:15:24.421795 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769350524.csv
+2026-01-25T15:26:10.473573 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:10.473573 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T15:26:10.505197 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351170.csv
+2026-01-25T15:26:10.520978 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:10.537117 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T15:26:35.144882 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351195.csv
+2026-01-25T15:26:35.277493 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:35.278531 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T15:26:52.117972 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351212.csv
+2026-01-25T15:26:52.255779 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:52.255779 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:26:52.260648 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351212.csv
+2026-01-25T15:26:52.265160 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:52.265160 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:26:52.271713 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351212.csv
+2026-01-25T15:26:52.275734 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:52.275734 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:26:52.281377 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351212.csv
+2026-01-25T15:26:52.285680 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:26:52.285680 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:27:45.870956 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351265.csv
+2026-01-25T15:27:46.467614 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:27:46.467614 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:28:07.992987 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:07.992987 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T15:28:08.008494 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.010845 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.010845 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T15:28:08.019275 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.019275 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.023222 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 10}
+2026-01-25T15:28:08.030380 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.033335 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.033335 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:28:08.044535 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.047415 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.047415 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:28:08.053338 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.057360 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.058367 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T15:28:08.062815 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.067135 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.067135 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:28:08.084396 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351288.csv
+2026-01-25T15:28:08.097398 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:28:08.097398 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:29:01.075068 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351341.csv
+2026-01-25T15:29:01.618395 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:29:01.618395 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:30:12.758620 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:30:12.760248 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:31:20.851048 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351480.csv
+2026-01-25T15:31:23.526958 START run_configs_and_collect out_prefix=auto_test_h1_local n_cfgs=1
+2026-01-25T15:31:23.526958 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'sample_queries': 5}
+2026-01-25T15:31:23.562817 FINISH run_configs_and_collect out_prefix=auto_test_h1_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1_local_summary_1769351483.csv
+2026-01-25T17:40:07.040967 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=6
+2026-01-25T17:40:07.042068 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:40:07.238774 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:40:07.410523 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:40:08.298962 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:40:09.157022 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:40:17.405895 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:40:26.871892 FINISH run_configs_and_collect out_prefix=auto_test_H2_local_rerun written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_rerun_summary_1769359226.csv
+2026-01-25T17:44:03.937450 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=6
+2026-01-25T17:44:03.938089 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:44:05.667465 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:44:07.411772 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:44:18.191007 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:45:04.522829 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=6
+2026-01-25T17:45:04.523746 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:45:04.526013 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:45:04.552665 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:45:04.555361 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:45:15.183309 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:46:12.707890 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=2
+2026-01-25T17:46:12.708605 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-01-25T17:47:02.522611 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-01-25T17:47:54.937244 FINISH run_configs_and_collect out_prefix=auto_test_H2_local_rerun written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_rerun_summary_1769359674.csv
+2026-01-25T17:47:57.009808 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=2
+2026-01-25T17:47:57.010472 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-01-25T17:47:57.012658 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-01-25T17:47:57.044599 FINISH run_configs_and_collect out_prefix=auto_test_H2_local_rerun written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_rerun_summary_1769359677.csv
+2026-01-25T17:52:32.680553 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=6
+2026-01-25T17:52:32.681373 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:52:32.684833 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:52:32.688515 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:52:32.691735 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:52:32.695465 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:52:32.701196 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:52:32.730787 FINISH run_configs_and_collect out_prefix=auto_test_H2_local_rerun written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_rerun_summary_1769359952.csv
+2026-01-25T17:57:13.924471 START run_configs_and_collect out_prefix=auto_test_H2_local_rerun n_cfgs=6
+2026-01-25T17:57:13.925416 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:57:13.927770 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:57:13.930005 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:57:13.931429 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:57:13.932964 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 200}
+2026-01-25T17:57:13.935693 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 200}
+2026-01-25T17:57:13.947673 FINISH run_configs_and_collect out_prefix=auto_test_H2_local_rerun written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_rerun_summary_1769360233.csv
+2026-01-25T18:30:28.086878 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun n_cfgs=6
+2026-01-25T18:30:28.088514 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:32:37.931060 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:32:39.663271 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:32:50.292475 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:40:45.678843 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_targeted n_cfgs=0
+2026-01-25T18:40:45.683059 FINISH run_configs_and_collect out_prefix=auto_test_H3_local_rerun_targeted written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_rerun_targeted_summary_1769362845.csv
+2026-01-25T18:41:50.035844 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific n_cfgs=14
+2026-01-25T18:41:50.036468 START config {'hypothesis': 'H3_model_effect', 'n_docs': 50000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:41:57.914197 START config {'hypothesis': 'H3_model_effect', 'n_docs': 50000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:42:05.265675 START config {'hypothesis': 'H3_model_effect', 'n_docs': 200000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:44:41.271818 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific n_cfgs=14
+2026-01-25T18:44:41.272637 START config {'hypothesis': 'H3_model_effect', 'n_docs': 50000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:44:41.275392 START config {'hypothesis': 'H3_model_effect', 'n_docs': 50000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:44:41.277580 START config {'hypothesis': 'H3_model_effect', 'n_docs': 200000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:45:24.120910 START config {'hypothesis': 'H3_model_effect', 'n_docs': 200000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:45:54.273706 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 500}
+2026-01-25T18:47:05.258004 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific n_cfgs=10
+2026-01-25T18:47:05.259007 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 300}
+2026-01-25T18:47:32.566031 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 300}
+2026-01-25T18:47:59.250600 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 300}
+2026-01-25T18:48:35.979923 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 300}
+2026-01-25T18:49:47.454508 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific n_cfgs=7
+2026-01-25T18:49:47.455338 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 300}
+2026-01-25T18:50:23.727473 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 300}
+2026-01-25T18:51:10.134156 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific n_cfgs=6
+2026-01-25T18:51:10.135914 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:52:05.582560 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:53:09.321797 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific n_cfgs=5
+2026-01-25T18:53:09.324659 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T18:54:15.412990 START config {'hypothesis': 'H3_model_effect', 'n_docs': 600000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:29:50.275018 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun n_cfgs=6
+2026-01-25T19:29:50.275740 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:29:50.280046 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:29:50.283246 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:29:50.306845 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:30:05.571350 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:32:42.786573 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun n_cfgs=6
+2026-01-25T19:32:42.787126 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:32:42.789149 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:32:42.791141 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:32:42.793378 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:32:42.818003 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:34:20.063001 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:35:07.481214 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_force n_cfgs=6
+2026-01-25T19:35:07.482217 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:35:11.337925 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:35:13.490709 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:35:27.649103 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:35:43.177507 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:41:01.954641 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_missing_latency n_cfgs=0
+2026-01-25T19:41:01.977550 FINISH run_configs_and_collect out_prefix=auto_test_H3_local_rerun_missing_latency written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_rerun_missing_latency_summary_1769366461.csv
+2026-01-25T19:42:08.002593 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_specific_small_samples n_cfgs=14
+2026-01-25T19:42:08.003482 START config {'hypothesis': 'H3_model_effect', 'n_docs': 50000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:42:15.233643 START config {'hypothesis': 'H3_model_effect', 'n_docs': 50000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 200}
+2026-01-25T19:42:21.850789 START config {'hypothesis': 'H3_model_effect', 'n_docs': 200000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:43:12.756308 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_missing_remaining n_cfgs=12
+2026-01-25T19:43:12.757088 START config {'hypothesis': 'H3_model_effect', 'n_docs': 200000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:43:31.525512 START config {'hypothesis': 'H3_model_effect', 'n_docs': 200000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:43:42.625545 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_missing_remaining n_cfgs=10
+2026-01-25T19:43:42.626053 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:43:50.373904 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:43:52.847665 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:44:10.317485 START config {'hypothesis': 'H3_model_effect', 'n_docs': 300000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 100}
+2026-01-25T19:44:13.993094 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:44:19.498459 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:44:47.213997 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:45:22.739589 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:45:23.710993 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_large_remaining n_cfgs=8
+2026-01-25T19:45:23.712304 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:45:57.785528 START config {'hypothesis': 'H3_model_effect', 'n_docs': 400000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:46:02.217319 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:46:32.239911 START config {'hypothesis': 'H3_model_effect', 'n_docs': 500000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 50}
+2026-01-25T19:46:41.847696 START config {'hypothesis': 'H3_model_effect', 'n_docs': 600000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:47:19.236027 START config {'hypothesis': 'H3_model_effect', 'n_docs': 600000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:47:55.242335 START config {'hypothesis': 'H3_model_effect', 'n_docs': 800000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:48:40.689139 START config {'hypothesis': 'H3_model_effect', 'n_docs': 800000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:48:43.474042 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_800k n_cfgs=2
+2026-01-25T19:48:43.475021 START config {'hypothesis': 'H3_model_effect', 'n_docs': 800000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:49:11.434099 START run_configs_and_collect out_prefix=auto_test_H3_local_rerun_800k n_cfgs=2
+2026-01-25T19:49:11.434783 START config {'hypothesis': 'H3_model_effect', 'n_docs': 800000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:49:21.755895 START config {'hypothesis': 'H3_model_effect', 'n_docs': 800000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:49:36.224443 FINISH run_configs_and_collect out_prefix=auto_test_H3_local_rerun_missing_remaining written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_rerun_missing_remaining_summary_1769366976.csv
+2026-01-25T19:49:40.603329 START config {'hypothesis': 'H3_model_effect', 'n_docs': 800000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-01-25T19:49:49.022284 FINISH run_configs_and_collect out_prefix=auto_test_H3_local_rerun_800k written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_rerun_800k_summary_1769366989.csv
+2026-01-25T19:50:34.557814 FINISH run_configs_and_collect out_prefix=auto_test_H3_local_rerun_800k written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_rerun_800k_summary_1769367034.csv
+2026-02-20T23:35:26.496994 START run_configs_and_collect out_prefix=auto_test_moreq n_cfgs=24
+2026-02-20T23:35:26.498390 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:36:12.964284 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:36:25.579488 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:36:25.740456 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:36:38.110705 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:36:38.263706 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:36:50.627729 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:36:51.393298 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:37:24.519000 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:37:25.220400 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:38:00.605078 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:38:01.282146 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:38:35.961451 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:38:37.734607 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:43:34.484172 START run_configs_and_collect out_prefix=auto_test_quick_h1 n_cfgs=4
+2026-02-20T23:43:34.485992 START config {'hypothesis': 'H1_ingest', 'n_docs': 5, 'batch_size': 2, 'model_name': 'dummy', 'dim': 128, 'target_db': 'pinecone', 'sample_queries': 5}
+2026-02-20T23:43:35.729170 START config {'hypothesis': 'H1_ingest', 'n_docs': 5, 'batch_size': 2, 'model_name': 'dummy', 'dim': 128, 'target_db': 'weaviate', 'sample_queries': 5}
+2026-02-20T23:43:42.753982 START config {'hypothesis': 'H1_ingest', 'n_docs': 5, 'batch_size': 2, 'model_name': 'dummy', 'dim': 128, 'target_db': 'pinecone', 'sample_queries': 5}
+2026-02-20T23:43:42.756336 START config {'hypothesis': 'H1_ingest', 'n_docs': 5, 'batch_size': 2, 'model_name': 'dummy', 'dim': 128, 'target_db': 'weaviate', 'sample_queries': 5}
+2026-02-20T23:43:42.807712 FINISH run_configs_and_collect out_prefix=auto_test_quick_h1 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_quick_h1_summary_1771627422.csv
+2026-02-20T23:44:19.632129 START run_configs_and_collect out_prefix=auto_test_minimal n_cfgs=1
+2026-02-20T23:44:19.633126 START config {'hypothesis': 'H1_ingest', 'n_docs': 5, 'batch_size': 2, 'model_name': 'dummy', 'dim': 128, 'target_db': 'pinecone', 'sample_queries': 5}
+2026-02-20T23:44:20.786447 FINISH run_configs_and_collect out_prefix=auto_test_minimal written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_minimal_summary_1771627460.csv
+2026-02-20T23:45:40.365108 START run_configs_and_collect out_prefix=auto_test_h1real_0 n_cfgs=1
+2026-02-20T23:45:40.365940 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:45:41.758369 FINISH run_configs_and_collect out_prefix=auto_test_h1real_0 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_0_summary_1771627541.csv
+2026-02-20T23:45:41.770714 START run_configs_and_collect out_prefix=auto_test_h1real_1 n_cfgs=1
+2026-02-20T23:45:41.771541 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:45:54.042678 FINISH run_configs_and_collect out_prefix=auto_test_h1real_1 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_1_summary_1771627554.csv
+2026-02-20T23:45:54.064813 START run_configs_and_collect out_prefix=auto_test_h1real_2 n_cfgs=1
+2026-02-20T23:45:54.067048 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:45:54.261361 FINISH run_configs_and_collect out_prefix=auto_test_h1real_2 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_2_summary_1771627554.csv
+2026-02-20T23:45:54.272035 START run_configs_and_collect out_prefix=auto_test_h1real_3 n_cfgs=1
+2026-02-20T23:45:54.272775 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:46:06.302821 FINISH run_configs_and_collect out_prefix=auto_test_h1real_3 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_3_summary_1771627566.csv
+2026-02-20T23:46:06.315470 START run_configs_and_collect out_prefix=auto_test_h1real_4 n_cfgs=1
+2026-02-20T23:46:06.316150 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:46:06.506764 FINISH run_configs_and_collect out_prefix=auto_test_h1real_4 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_4_summary_1771627566.csv
+2026-02-20T23:46:06.512311 START run_configs_and_collect out_prefix=auto_test_h1real_5 n_cfgs=1
+2026-02-20T23:46:06.513090 START config {'hypothesis': 'H1_ingest', 'n_docs': 10000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:46:18.708302 FINISH run_configs_and_collect out_prefix=auto_test_h1real_5 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_5_summary_1771627578.csv
+2026-02-20T23:46:18.736872 START run_configs_and_collect out_prefix=auto_test_h1real_6 n_cfgs=1
+2026-02-20T23:46:18.738606 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:46:19.513004 FINISH run_configs_and_collect out_prefix=auto_test_h1real_6 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_6_summary_1771627579.csv
+2026-02-20T23:46:19.561884 START run_configs_and_collect out_prefix=auto_test_h1real_7 n_cfgs=1
+2026-02-20T23:46:19.562614 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:46:52.466708 FINISH run_configs_and_collect out_prefix=auto_test_h1real_7 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_7_summary_1771627612.csv
+2026-02-20T23:46:52.533785 START run_configs_and_collect out_prefix=auto_test_h1real_8 n_cfgs=1
+2026-02-20T23:46:52.534540 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:46:53.280118 FINISH run_configs_and_collect out_prefix=auto_test_h1real_8 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_8_summary_1771627613.csv
+2026-02-20T23:46:53.321739 START run_configs_and_collect out_prefix=auto_test_h1real_9 n_cfgs=1
+2026-02-20T23:46:53.322492 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:47:25.977115 FINISH run_configs_and_collect out_prefix=auto_test_h1real_9 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_9_summary_1771627645.csv
+2026-02-20T23:47:26.045453 START run_configs_and_collect out_prefix=auto_test_h1real_10 n_cfgs=1
+2026-02-20T23:47:26.046274 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:47:26.735509 FINISH run_configs_and_collect out_prefix=auto_test_h1real_10 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_10_summary_1771627646.csv
+2026-02-20T23:47:26.772651 START run_configs_and_collect out_prefix=auto_test_h1real_11 n_cfgs=1
+2026-02-20T23:47:26.773404 START config {'hypothesis': 'H1_ingest', 'n_docs': 50000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:47:59.423955 FINISH run_configs_and_collect out_prefix=auto_test_h1real_11 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_11_summary_1771627679.csv
+2026-02-20T23:47:59.488934 START run_configs_and_collect out_prefix=auto_test_h1real_12 n_cfgs=1
+2026-02-20T23:47:59.489785 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:48:00.925738 FINISH run_configs_and_collect out_prefix=auto_test_h1real_12 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_12_summary_1771627680.csv
+2026-02-20T23:48:01.002042 START run_configs_and_collect out_prefix=auto_test_h1real_13 n_cfgs=1
+2026-02-20T23:48:01.002787 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:49:00.969465 FINISH run_configs_and_collect out_prefix=auto_test_h1real_13 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_13_summary_1771627740.csv
+2026-02-20T23:49:01.104592 START run_configs_and_collect out_prefix=auto_test_h1real_14 n_cfgs=1
+2026-02-20T23:49:01.106080 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:49:02.571559 FINISH run_configs_and_collect out_prefix=auto_test_h1real_14 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_14_summary_1771627742.csv
+2026-02-20T23:49:02.641676 START run_configs_and_collect out_prefix=auto_test_h1real_15 n_cfgs=1
+2026-02-20T23:49:02.642474 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:50:02.569609 FINISH run_configs_and_collect out_prefix=auto_test_h1real_15 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_15_summary_1771627802.csv
+2026-02-20T23:50:02.702207 START run_configs_and_collect out_prefix=auto_test_h1real_16 n_cfgs=1
+2026-02-20T23:50:02.702973 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:50:04.171982 FINISH run_configs_and_collect out_prefix=auto_test_h1real_16 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_16_summary_1771627804.csv
+2026-02-20T23:50:04.249569 START run_configs_and_collect out_prefix=auto_test_h1real_17 n_cfgs=1
+2026-02-20T23:50:04.250406 START config {'hypothesis': 'H1_ingest', 'n_docs': 100000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:51:02.985330 FINISH run_configs_and_collect out_prefix=auto_test_h1real_17 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_17_summary_1771627862.csv
+2026-02-20T23:51:03.115531 START run_configs_and_collect out_prefix=auto_test_h1real_18 n_cfgs=1
+2026-02-20T23:51:03.116322 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:51:10.864294 FINISH run_configs_and_collect out_prefix=auto_test_h1real_18 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_18_summary_1771627870.csv
+2026-02-20T23:51:11.221592 START run_configs_and_collect out_prefix=auto_test_h1real_19 n_cfgs=1
+2026-02-20T23:51:11.222710 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 100, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-20T23:56:16.405758 FINISH run_configs_and_collect out_prefix=auto_test_h1real_19 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_19_summary_1771628176.csv
+2026-02-20T23:56:17.331671 START run_configs_and_collect out_prefix=auto_test_h1real_20 n_cfgs=1
+2026-02-20T23:56:17.332553 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-20T23:56:25.584437 FINISH run_configs_and_collect out_prefix=auto_test_h1real_20 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_20_summary_1771628185.csv
+2026-02-20T23:56:25.953728 START run_configs_and_collect out_prefix=auto_test_h1real_21 n_cfgs=1
+2026-02-20T23:56:25.954559 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 500, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-21T00:02:38.633710 FINISH run_configs_and_collect out_prefix=auto_test_h1real_21 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_21_summary_1771628558.csv
+2026-02-21T00:02:39.895797 START run_configs_and_collect out_prefix=auto_test_h1real_22 n_cfgs=1
+2026-02-21T00:02:39.897575 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'pinecone', 'sample_queries': 200}
+2026-02-21T00:02:56.317411 FINISH run_configs_and_collect out_prefix=auto_test_h1real_22 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_22_summary_1771628576.csv
+2026-02-21T00:02:56.841006 START run_configs_and_collect out_prefix=auto_test_h1real_23 n_cfgs=1
+2026-02-21T00:02:56.841941 START config {'hypothesis': 'H1_ingest', 'n_docs': 500000, 'batch_size': 1000, 'model_name': 'dummy', 'dim': 512, 'target_db': 'weaviate', 'sample_queries': 200}
+2026-02-21T00:11:45.411937 FINISH run_configs_and_collect out_prefix=auto_test_h1real_23 written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_h1real_23_summary_1771629105.csv
+2026-02-21T00:14:32.202250 START run_configs_and_collect out_prefix=auto_test_H2_local n_cfgs=6
+2026-02-21T00:14:32.202880 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-02-21T00:14:38.240070 START config {'hypothesis': 'H2_relevance', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-02-21T00:14:42.293315 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-02-21T00:14:59.996005 START config {'hypothesis': 'H2_relevance', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-02-21T00:15:14.959722 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'vector', 'sample_queries': 30}
+2026-02-21T00:17:08.596636 START config {'hypothesis': 'H2_relevance', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'dummy', 'dim': 512, 'target_db': 'local', 'search_mode': 'hybrid', 'sample_queries': 30}
+2026-02-21T00:18:44.197821 FINISH run_configs_and_collect out_prefix=auto_test_H2_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H2_local_summary_1771629524.csv
+2026-02-21T00:20:38.279809 START run_configs_and_collect out_prefix=auto_test_H3_local n_cfgs=6
+2026-02-21T00:20:38.280237 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-02-21T00:20:41.043441 START config {'hypothesis': 'H3_model_effect', 'n_docs': 10000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-02-21T00:20:42.768743 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-02-21T00:20:54.012110 START config {'hypothesis': 'H3_model_effect', 'n_docs': 100000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-02-21T00:21:03.333054 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'bert', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-02-21T00:22:12.073750 START config {'hypothesis': 'H3_model_effect', 'n_docs': 1000000, 'batch_size': 256, 'model_name': 'sentence_transformer', 'dim': 512, 'target_db': 'local', 'sample_queries': 30}
+2026-02-21T00:23:18.824021 FINISH run_configs_and_collect out_prefix=auto_test_H3_local written_csv=C:\Users\DELL\Documents\GitHub\SiVBP\experiments\results\auto_test_H3_local_summary_1771629798.csv

@@ -1,0 +1,49 @@
+Author: Belma Đelilovic
+PROJECT: SiVBP — arhitektura i postupak ispitivanja (sažeto)
+
+1) Pregled projekta
+- SiVBP je skup skripti i alata za generiranje sintetičkih dokumenata, enkodiranje vektora, offline memmap pretraživanje i evaluaciju retrieval performansi (hipoteze H1,H2,H3).
+
+2) Arhitektura (komponente)
+- data/: generiranje dokumenata, queries i qrels (synthetic). Glavne ulazne datoteke: documents_{n}.jsonl, queries.jsonl, qrels.json.
+- embeddings/: enkoderi (DummyEncoder s TF-IDF ili hashing fallback; opcionalno RealEncoder sa transformers ako instalirano).
+- experiments/: skripte za pokretanje eksperimenata (build_configs, run_configs_and_collect, helperi za rerun i agregaciju rezultata).
+- experiments/results/: konačni rezultati (CSV/JSON/PNG). Ovdje su smješteni sažeci i plotovi koje smo zadržali.
+- local_db/, ingestion/, pinecone/, weaviate/: helperi za ingest/simualcije DB-a.
+
+3) Kako je ispitivano (procedura)
+- Za svaki konfigurirani eksperiment (hipoteza H1,H2,H3) generirali smo dokumente, iz njih regenerirali queries/qrels (za reproducibilnost), enkodirali sve dokumente u memmap datoteku i izveo offline pretraživanje (dot proizvod) kako bismo izračunali precision/recall/MAP.
+- Za H3 smo mjerili i offline query latency metodom koja učitava memmap i mjeri vrijeme nearest-neighbor skeniranja za uzorak queryja (measure_offline_query_latency). Izračunava se mean/p50/p90/p99 i qps.
+- Encodiranje: tamo gdje je dostupan RealEncoder (transformers), koristio se; lokalno smo često koristili DummyEncoder s TF-IDF ili FORCE_HASHING_ENCODER=1 za pure-Python hashing fallback radi stabilnosti.
+
+4) Ključni skripti (gdje su i šta rade)
+- experiments/auto_run_tests.py — glavna orkestracija, encode_to_memmap, offline_search, evaluate_all i measure_offline_query_latency.
+- experiments/rerun_h3_local_force.py, rerun_h3_specific_sizes_local.py, rerun_h3_missing_remaining.py, rerun_h3_large_remaining.py — skripte za ponovne pokuse i popunjavanje latency metrika.
+- experiments/produce_h3_summary_and_plots.py — agregacija H3 CSV/JSON i plotovi.
+- experiments/produce_h3_model_comparison.py — per-model agregacija i plotovi.
+
+5) Zadržani rezultati (lokacija i imena)
+- experiments/results/h3_runs_detailed.csv
+- experiments/results/h3_summary_by_n_docs.csv
+- experiments/results/h3_summary_by_n_docs.json
+- experiments/results/h3_model_runs_detailed.csv
+- experiments/results/h3_model_summary_by_n_docs_and_model.csv
+- experiments/results/h3_model_summary_by_n_docs_and_model.json
+- experiments/results/h3_runs_failed.csv (ako postoji)
+- plots: sve `plot_h3_*.png` u experiments/results/ (precision, recall, MAP, query latency po modelu)
+
+6) Okruženje i poznata ograničenja
+- Na lokalnom stroju `pyarrow` daje upozorenje i `transformers` često nije instaliran; stoga neki pokusi koriste DummyEncoder.
+- Na velikim datasetima (>=600k..1M) enkodiranje s pure-Python hashingom je sporo i ponekad je radna strategija bila smanjiti `sample_queries` ili koristiti gen. latencije direktno iz memmap (mali sample) kako bi se mjerilo latency bez ponovnog enkodiranja.
+
+7) Kako vratiti arhivirane fajlove
+- Svi premješteni/izbrisani resursi nalaze se u direktoriju `archive/` (ako odlučeno premjestiti i ne trajno brisati). Možete ih vratiti iz te mape.
+
+8) Reprodukcija (kratko)
+- Lokalno (samo za rezultate): pokrenuti `py -3 -u -m experiments.produce_h3_summary_and_plots` i `py -3 -u -m experiments.produce_h3_model_comparison` da generirate CSV-e i PNG-e iz postojećih JSON-eva.
+- Puni rerun: pokrenuti `py -3 -u -m experiments.rerun_h3_local_full` ili ciljane rerun skripte (može potrajati, i korisno je postaviti `FORCE_HASHING_ENCODER=1` i smanjiti `sample_queries` za velike n)
+
+9) Napomena
+- Ove promjene čiste repo tako da ostane samo dokumentacija i rezultati; originalni kod i stare rezultate su premješteni u `archive/` za slučaj potrebe obnove.
+
+---

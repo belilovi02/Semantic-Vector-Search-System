@@ -1,0 +1,162 @@
+[
+  {
+    "n_docs": 10000,
+    "model": "bert",
+    "mean_p@5": 0.057466666666666666,
+    "mean_r@5": 0.28733333333333333,
+    "mean_map": 0.4306837787398933,
+    "mean_query_latency_s": 0.0015368734465705024
+  },
+  {
+    "n_docs": 10000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.0828888888888889,
+    "mean_r@5": 0.41444444444444445,
+    "mean_map": 0.36150726322611,
+    "mean_query_latency_s": 0.0014971329106224908
+  },
+  {
+    "n_docs": 50000,
+    "model": "bert",
+    "mean_p@5": 0.0706,
+    "mean_r@5": 0.353,
+    "mean_map": 0.3135325007637701,
+    "mean_query_latency_s": 0.005662142038345337
+  },
+  {
+    "n_docs": 50000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.0458,
+    "mean_r@5": 0.229,
+    "mean_map": 0.3010318596006677,
+    "mean_query_latency_s": 0.0057032310962677
+  },
+  {
+    "n_docs": 100000,
+    "model": "bert",
+    "mean_p@5": 0.04625,
+    "mean_r@5": 0.23125,
+    "mean_map": 0.2747467992438323,
+    "mean_query_latency_s": 0.014207024839189317
+  },
+  {
+    "n_docs": 100000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.06055555555555556,
+    "mean_r@5": 0.30277777777777776,
+    "mean_map": 0.28533309403110746,
+    "mean_query_latency_s": 0.013880101707246567
+  },
+  {
+    "n_docs": 200000,
+    "model": "bert",
+    "mean_p@5": 0.05320000000000001,
+    "mean_r@5": 0.266,
+    "mean_map": 0.2505841532435573,
+    "mean_query_latency_s": 0.024931104183197023
+  },
+  {
+    "n_docs": 200000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.01666666666666667,
+    "mean_r@5": 0.08333333333333333,
+    "mean_map": 0.22913184870684872,
+    "mean_query_latency_s": 0.03123787999153137
+  },
+  {
+    "n_docs": 300000,
+    "model": "bert",
+    "mean_p@5": 0.016000000000000004,
+    "mean_r@5": 0.08,
+    "mean_map": 0.20922526975661648,
+    "mean_query_latency_s": 0.04230428814888
+  },
+  {
+    "n_docs": 300000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.03233333333333333,
+    "mean_r@5": 0.16166666666666665,
+    "mean_map": 0.30427697730832404,
+    "mean_query_latency_s": 0.04321806430816651
+  },
+  {
+    "n_docs": 400000,
+    "model": "bert",
+    "mean_p@5": 0.03511111111111112,
+    "mean_r@5": 0.17555555555555555,
+    "mean_map": 0.24127550210367546,
+    "mean_query_latency_s": 0.06719607591629029
+  },
+  {
+    "n_docs": 400000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.022333333333333337,
+    "mean_r@5": 0.11166666666666666,
+    "mean_map": 0.2090628130039895,
+    "mean_query_latency_s": 0.07141230980555216
+  },
+  {
+    "n_docs": 500000,
+    "model": "bert",
+    "mean_p@5": 0.03766666666666667,
+    "mean_r@5": 0.18833333333333332,
+    "mean_map": 0.24758814102564103,
+    "mean_query_latency_s": 0.08485826015472411
+  },
+  {
+    "n_docs": 500000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.021500000000000005,
+    "mean_r@5": 0.1075,
+    "mean_map": 0.19826984126984126,
+    "mean_query_latency_s": 0.07797977447509766
+  },
+  {
+    "n_docs": 600000,
+    "model": "bert",
+    "mean_p@5": 0.060000000000000005,
+    "mean_r@5": 0.3,
+    "mean_map": 0.24904761904761905,
+    "mean_query_latency_s": 0.07161219120025634
+  },
+  {
+    "n_docs": 600000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.02333333333333333,
+    "mean_r@5": 0.11666666666666667,
+    "mean_map": 0.1809437321937322,
+    "mean_query_latency_s": 0.07274364630381266
+  },
+  {
+    "n_docs": 800000,
+    "model": "bert",
+    "mean_p@5": 0.013333333333333334,
+    "mean_r@5": 0.06666666666666667,
+    "mean_map": 0.185,
+    "mean_query_latency_s": 0.12401254177093506
+  },
+  {
+    "n_docs": 800000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.0,
+    "mean_r@5": 0.0,
+    "mean_map": null,
+    "mean_query_latency_s": 0.15511242151260377
+  },
+  {
+    "n_docs": 1000000,
+    "model": "bert",
+    "mean_p@5": 0.036000000000000004,
+    "mean_r@5": 0.18000000000000002,
+    "mean_map": 0.261299845987346,
+    "mean_query_latency_s": 0.12802550196647644
+  },
+  {
+    "n_docs": 1000000,
+    "model": "sentence_transformer",
+    "mean_p@5": 0.04,
+    "mean_r@5": 0.2,
+    "mean_map": 0.1875,
+    "mean_query_latency_s": 0.14756348927815754
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "config": {
+    "hypothesis": "H3_model_effect",
+    "n_docs": 10000,
+    "batch_size": 256,
+    "model_name": "bert",
+    "dim": 512,
+    "target_db": "local",
+    "sample_queries": 30
+  },
+  "encode_total_s": 0.366870641708374,
+  "encode_batches": [
+    {
+      "start": 1771629639.4700503,
+      "end": 1771629639.8008754,
+      "count": 10000
+    }
+  ],
+  "system_samples": [
+    {
+      "ts": 1771629639.838079,
+      "cpu_percent": 33.0,
+      "mem": {
+        "total": 16849256448,
+        "available": 7536840704,
+        "percent": 55.3,
+        "used": 9312415744,
+        "free": 7536840704
+      }
+    }
+  ],
+  "metrics": {
+    "p@5": 0.08000000000000002,
+    "p@10": 0.05333333333333335,
+    "p@20": 0.026666666666666675,
+    "r@5": 0.4,
+    "r@10": 0.5333333333333333,
+    "r@20": 0.5333333333333333,
+    "map": 0.38240740740740736,
+    "query_latency": {
+      "mean_s": 0.0027103741963704427,
+      "p50_s": 0.002370119094848633,
+      "p90_s": 0.0034225940704345707,
+      "p99_s": 0.007368941307067875,
+      "qps": 368.952745100339
+    }
+  },
+  "memmap_path": "C:\\Users\\DELL\\Documents\\GitHub\\SiVBP\\data\\vectors_bert_10000.dat",
+  "dim": 512,
+  "n_docs": 10000
+}

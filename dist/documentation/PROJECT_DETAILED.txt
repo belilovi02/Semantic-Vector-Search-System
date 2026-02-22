@@ -1,0 +1,147 @@
+Project: SiVBP — Detailed documentation
+======================================
+
+This document describes the repository, architecture, data layout, experiments, how to run
+the smoke and large experiments, expected resource usage, and troubleshooting notes.
+
+1) Project purpose
+-------------------
+- Research experiments comparing vector DB ingestion and retrieval (Weaviate vs Pinecone).
+- Supports large-scale encoding, memmapped vector storage, batched ingestion, and evaluation.
+
+2) High-level architecture
+--------------------------
+- Data layer (`data/`): dataset preparation and synthetic generator. Produces JSONL documents,
+  queries and QRELs for evaluation.
+- Embeddings (`embeddings/`): encoder implementations. Supports three encoder types:
+  - `SentenceTransformerEncoder` — uses `sentence-transformers` (requires PyTorch/transformers).
+  - `BertEncoder` — HuggingFace `transformers` based encoder (requires PyTorch).
+  - `DummyEncoder` — TF-IDF based fallback that produces dense float32 vectors (no PyTorch dependency).
+- Experiments (`experiments/`): orchestrates encode → ingest → search → evaluate flow and
+  writes results CSV under `experiments/results/`.
+- Ingestion (`ingestion/`): DB-agnostic ingestion wrappers that call DB-specific helpers.
+- DB helpers: `pinecone_local/client.py` (wrapper for installed Pinecone client) and `weaviate/client.py`.
+- Utilities: small scripts like `data/generate_synthetic.py` (streaming generator for large corpora),
+  `check_imports.py` (dependency verifications), and `run_smoke.ps1` (automation wrapper).
+
+3) Repository layout (important files)
+-------------------------------------
+- `main.py` — entrypoint. Actions supported:
+    - `--action prepare_data --n_docs N` : produce `data/documents_N.jsonl` and queries/qrels.
+    - `--action run_all --models <list>` : run experiments (defaults: sentence_transformer, bert).
+- `data/generate_synthetic.py` — stream-safe generator for synthetic corpora. Use `--start` to resume.
+- `data/dataset.py` — higher-level dataset prep: prefers MS MARCO if available, otherwise falls back to synthetic.
+- `embeddings/encoder.py` — encoder classes; uses lazy imports so `DummyEncoder` can run without torch.
+- `experiments/run_experiments.py` — orchestrator that encodes to `numpy.memmap`, ingests, searches,
+  computes metrics, and writes `experiments/results/*.csv`.
+- `pinecone_local/client.py` — wrapper that imports the installed pinecone package and exposes helpers.
+- `pinecone/client.py` — project-specific helpers that will attempt to use the installed package; avoid
+  name collisions by using `pinecone_local` where necessary.
+- `weaviate/client.py` — helper functions for Weaviate operations.
+- `dist/` — packaging artifacts. This `documentation/` folder and `professor_package.zip` (if present) live here.
+
+4) Data formats
+---------------
+- Documents: JSONL where each line is an object with keys: `id` (string), `title`, `text`, `metadata`.
+  Filenames: `data/documents_{N}.jsonl`.
+- Queries: JSONL where each line is `{"id": "q1", "query": "text..."}`. Filename: `data/queries.jsonl`.
+- QRELS: JSON mapping or TREC-style depending on generator; for the project we store `data/qrels.json` or
+  `data/qrels_{k}.txt` for TREC-like qrels used by some evaluators.
+- Vectors: `numpy.memmap` binary file created at `data/vectors_{model_name}_{N}.dat`. dtype=float32 and shape=(N,dim).
+
+5) How experiments run (step-by-step)
+------------------------------------
+1. Prepare data:
+   - Small smoke: `.venv\Scripts\python.exe main.py --action prepare_data --n_docs 1000`
+   - Large: use `data/generate_synthetic.py --n_docs 1000000` to produce 1M documents (streamed to disk).
+
+2. Encode documents to disk (memmap):
+   - The orchestrator will instantiate an encoder and call `encode_documents()` which:
+     a) samples a small batch to determine embedding dimension,
+     b) creates `data/vectors_{model}_{N}.dat` memmap with shape=(N,dim),
+     c) encodes in `chunk_size` batches and writes slices into the memmap to avoid OOM.
+
+3. Ingest into vector DB(s):
+   - Weaviate: requires a running Weaviate instance; use `weaviate.client.get_client()` and schema helpers.
+   - Pinecone: requires environment vars `PINECONE_API_KEY` and `PINECONE_ENV`. Use `pinecone_local.client.create_index` and `batch_upsert`.
+   - Upsert strategy: in batches (e.g., 100–1000 vectors) and optionally parallelized with a ThreadPool.
+
+4. Query and evaluate:
+   - The orchestrator runs a sample of queries (configurable) and calls DB-specific search wrappers.
+   - Evaluation metrics are computed via `evaluation/metrics.py` and results are written to `experiments/results/*.csv`.
+
+6) Commands — quick copyable snippets
+-------------------------------------
+Set up venv and install (example):
+```powershell
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Prepare 1k smoke dataset:
+```powershell
+.venv\Scripts\python.exe main.py --action prepare_data --n_docs 1000
+```
+Run smoke experiment (use `dummy` if PyTorch fails):
+```powershell
+.venv\Scripts\python.exe main.py --action run_all --models sentence_transformer bert
+# fallback if torch fails:
+.venv\Scripts\python.exe main.py --action run_all --models dummy
+```
+Generate 1,000,000 synthetic docs (streaming):
+```powershell
+.venv\Scripts\python.exe data\generate_synthetic.py --n_docs 1000000
+```
+Resume generation from an existing partial file:
+```powershell
+.venv\Scripts\python.exe data\generate_synthetic.py --n_docs 1000000 --start 250001
+```
+
+7) Resource estimates and guidance
+----------------------------------
+- Embedding storage: float32, 1M × 768 ≈ 3.07 GiB. Additional metadata/doc storage may add several GB.
+- Encoding time:
+  - `DummyEncoder` (TF-IDF): CPU-only, relatively fast.
+  - `SentenceTransformer`/`BertEncoder`: CPU-only encoding will be slow (many hours); GPU significantly speeds up.
+- Ingestion:
+  - Upserting 1M vectors to a hosted vector DB can be rate-limited and costly. Use batch sizes 100–1000 and monitor throughput.
+  - Consider sharding or partitioning indexes for very large datasets.
+
+8) Troubleshooting
+------------------
+- Torch DLL error on Windows (common): `OSError: [WinError 1114] ... c10.dll` — causes:
+  - GPU driver or power settings; sometimes switch to CPU-only torch wheel or reinstall drivers.
+  - Workaround: use `DummyEncoder` for smoke/reproducibility if PyTorch cannot be imported.
+- `pyarrow` / `numpy` ABI errors: pin compatible versions (example used `pyarrow==11.0.0` and `numpy==1.26.2` in this environment).
+- Pinecone import collisions: the repo contains a local `pinecone/` folder; code uses `pinecone_local` wrapper to import the
+  installed package safely. If you run into import errors, ensure the installed `pinecone-client` is present in the venv.
+
+9) Experiments and hypotheses
+-----------------------------
+- Typical experiments implemented:
+  - Ingestion throughput comparison: measure upsert throughput for Weaviate vs Pinecone for sizes 10k, 50k, 100k.
+  - Retrieval quality: run vector-only and hybrid queries and compute precision@k / recall measures using qrels.
+  - Resource scaling: measure encoding time, disk usage, and ingestion latency as corpus size grows.
+
+10) Files to hand to professor (recommended)
+-----------------------------------------
+- `README.md` and `README_RUN_LARGE.md` with run steps.
+- `.env.example` with placeholders for Pinecone/Weaviate credentials.
+- `main.py` as the entrypoint.
+- Sample data: `data/documents_1000.jsonl`, `data/queries.jsonl`, `data/qrels.json` and `data/vectors_dummy_tfidf_1000.dat`.
+- `experiments/results/results_*.csv` as sample outputs showing the pipeline works.
+- `dist/documentation/PROJECT_DETAILED.txt` (this file) for deep technical notes.
+
+11) Optional next steps and improvements
+--------------------------------------
+- Implement `memmap`-based encoder that writes embeddings in configurable dtype (float16/float32) and
+  optionally runs a PCA pass to reduce dimensionality prior to ingestion.
+- Add optional validation harness to replay experiments on a cloud instance and produce a small HTML report.
+- Provide a requirements subfile for CPU-only vs GPU-enabled installs and include `conda` environment files for Windows GPU fixes.
+
+12) Contact and provenance
+--------------------------
+Repository location: workspace root. If you need a single compressed package with or without the 1M file,
+I can create `dist/SiVBP_professor_package.zip` including or excluding large files per your preference.
+
+---
+End of documentation file.

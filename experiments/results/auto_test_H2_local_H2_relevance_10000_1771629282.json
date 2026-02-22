@@ -1,0 +1,63 @@
+{
+  "config": {
+    "hypothesis": "H2_relevance",
+    "n_docs": 10000,
+    "batch_size": 256,
+    "model_name": "dummy",
+    "dim": 512,
+    "target_db": "local",
+    "search_mode": "hybrid",
+    "sample_queries": 30
+  },
+  "encode_total_s": 1.4029731750488281,
+  "encode_batches": [
+    {
+      "start": 1771629278.6304536,
+      "end": 1771629279.9642193,
+      "count": 10000
+    }
+  ],
+  "system_samples": [
+    {
+      "ts": 1771629280.0402362,
+      "cpu_percent": 28.7,
+      "mem": {
+        "total": 16849256448,
+        "available": 8002551808,
+        "percent": 52.5,
+        "used": 8846704640,
+        "free": 8002551808
+      }
+    },
+    {
+      "ts": 1771629281.0413787,
+      "cpu_percent": 12.5,
+      "mem": {
+        "total": 16849256448,
+        "available": 8003985408,
+        "percent": 52.5,
+        "used": 8845271040,
+        "free": 8003985408
+      }
+    }
+  ],
+  "metrics": {
+    "p@5": 0.08000000000000002,
+    "p@10": 0.046666666666666676,
+    "p@20": 0.023333333333333338,
+    "r@5": 0.4,
+    "r@10": 0.4666666666666667,
+    "r@20": 0.4666666666666667,
+    "map": 0.3685185185185185,
+    "query_latency": {
+      "mean_s": 0.003722802797953288,
+      "p50_s": 0.0034979581832885742,
+      "p90_s": 0.003973698616027832,
+      "p99_s": 0.008374505043029789,
+      "qps": 268.61481906851935
+    }
+  },
+  "memmap_path": "C:\\Users\\DELL\\Documents\\GitHub\\SiVBP\\data\\vectors_dummy_10000.dat",
+  "dim": 512,
+  "n_docs": 10000
+}

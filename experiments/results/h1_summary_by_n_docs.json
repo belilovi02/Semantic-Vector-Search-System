@@ -1,0 +1,101 @@
+[
+  {
+    "n_docs": 1000,
+    "mean_mean_s": 0.005149420102437337,
+    "median_p50_s": 0.0002770423889160156,
+    "median_p90_s": 0.01076962947845459,
+    "median_p99_s": 0.011397459506988526,
+    "mean_qps": 338.0473333043197,
+    "mean_ingest_vps": 31788.512122772416
+  },
+  {
+    "n_docs": 10000,
+    "mean_mean_s": 0.025181392828623455,
+    "median_p50_s": 0.01784878969192505,
+    "median_p90_s": 0.03666100502014161,
+    "median_p99_s": 0.04205401659011841,
+    "mean_qps": 46.416599850289224,
+    "mean_ingest_vps": 29473.6605937
+  },
+  {
+    "n_docs": 50000,
+    "mean_mean_s": 0.0749618477291531,
+    "median_p50_s": 0.07558190822601318,
+    "median_p90_s": 0.0816335678100586,
+    "median_p99_s": 0.08840269327163697,
+    "mean_qps": 13.341608189363034,
+    "mean_ingest_vps": 61470.53360483629
+  },
+  {
+    "n_docs": 100000,
+    "mean_mean_s": 0.22534404357274374,
+    "median_p50_s": 0.1628507375717163,
+    "median_p90_s": 0.1668992280960083,
+    "median_p99_s": 0.17384591341018676,
+    "mean_qps": 5.120990824163719,
+    "mean_ingest_vps": 39316.47178834953
+  },
+  {
+    "n_docs": 200000,
+    "mean_mean_s": null,
+    "median_p50_s": null,
+    "median_p90_s": null,
+    "median_p99_s": null,
+    "mean_qps": null,
+    "mean_ingest_vps": null
+  },
+  {
+    "n_docs": 300000,
+    "mean_mean_s": null,
+    "median_p50_s": null,
+    "median_p90_s": null,
+    "median_p99_s": null,
+    "mean_qps": null,
+    "mean_ingest_vps": null
+  },
+  {
+    "n_docs": 400000,
+    "mean_mean_s": null,
+    "median_p50_s": null,
+    "median_p90_s": null,
+    "median_p99_s": null,
+    "mean_qps": null,
+    "mean_ingest_vps": null
+  },
+  {
+    "n_docs": 500000,
+    "mean_mean_s": 0.9061435222625732,
+    "median_p50_s": 0.8382980823516846,
+    "median_p90_s": 0.9126636981964111,
+    "median_p99_s": 0.9362431049346924,
+    "mean_qps": 1.116499106428137,
+    "mean_ingest_vps": 51427.66405611251
+  },
+  {
+    "n_docs": 600000,
+    "mean_mean_s": null,
+    "median_p50_s": null,
+    "median_p90_s": null,
+    "median_p99_s": null,
+    "mean_qps": null,
+    "mean_ingest_vps": null
+  },
+  {
+    "n_docs": 800000,
+    "mean_mean_s": null,
+    "median_p50_s": null,
+    "median_p90_s": null,
+    "median_p99_s": null,
+    "mean_qps": null,
+    "mean_ingest_vps": null
+  },
+  {
+    "n_docs": 1000000,
+    "mean_mean_s": null,
+    "median_p50_s": null,
+    "median_p90_s": null,
+    "median_p99_s": null,
+    "mean_qps": null,
+    "mean_ingest_vps": null
+  }
+]
